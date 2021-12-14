@@ -1,0 +1,79 @@
+.post2 {
+    margin-top: 50px;
+    background-image: url(../img/Background-Image.jpg);
+    height: auto;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.post {
+    height: auto;
+    margin: 20px 0;
+    border-radius: 4px;
+    position: relative;
+    transition: all 0.5s ease;
+    box-shadow: 0px 0px 10px 2px #6f6f6f;
+}
+
+.post-header {
+    overflow: hidden;
+}
+
+.post-header img {
+    transition: all 0.5s ease;
+    border-radius:4px 4px 0 0;
+}
+
+.post:hover{
+    background-color: white;
+}
+.post:hover img {
+    cursor: pointer;
+    transform: scale(1.3) rotate(10deg);
+    filter: grayscale(0.5);
+}
+
+.post-title {
+    padding: 15px;
+}
+
+.post-title h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.post-title p {
+    color: #8c8c8c;
+    line-height: 23px;
+    margin-bottom: 30px;
+}
+
+.post-footer {
+    position: absolute;
+    bottom: 0;
+    border-top: 1px solid #d2d2d2;
+    width: 100%;
+    padding: 7px;
+}
+
+.post-footer ul li {
+    display: inline-block;
+}
+.icon-left{
+    float: left;
+}
+.icon-left p{
+display: inline-block;
+color: #acabab;
+
+}
+.icon-right p{
+display: inline-block;
+color: #acabab;
+}
+.icon-right{
+    float: right;
+}
+.icon-left svg{
+    color: red;
+}

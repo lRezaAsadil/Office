@@ -1,0 +1,41 @@
+.about {
+    width: 100%;
+}
+
+.about .sec-title {
+    margin: 70px 0;
+}
+
+.about-left {
+    background-color: #f4f4f4;
+    display: block;
+    padding: 18px !important;
+    border-radius: 4px;
+}
+
+.about-left h3 {
+    border-bottom: 1px solid #b5b5b5;
+    padding-bottom: 14px;
+    font-size: 18px;
+}
+
+.about-left p {
+    line-height: 26px;
+    padding: 10px;
+    text-align: justify;
+}
+
+.about-left a {
+    background-color: cyan;
+    color: white;
+    padding: 4px 10px;
+    border-radius: 5px;
+    float: left;
+    margin-left: 10px;
+}
+
+@media screen and (max-width: 1000px) {
+    .img-ab {
+        display: none;
+    }
+}

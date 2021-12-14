@@ -1,0 +1,109 @@
+.bg-img {
+    background-image: url(../img/Background-Image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    background-attachment: fixed;
+}
+
+.box {
+    width: 100%;
+    background-color: rgba(242, 240, 240, 0.58);
+    height: auto;
+    margin: 59px 10px;
+    padding: 27px;
+    box-shadow: 0px 0px 8px 2px #a2a2a2;
+    border-radius: 5px;
+}
+
+.box h3 {
+    display: inline-block;
+    font-size: 15px;
+    padding-right: 6px;
+}
+
+.box svg {
+    font-size: 30px;
+    color: #009fff;
+    vertical-align: -13px;
+}
+
+.box p {
+    margin-right: 38px;
+    margin-top: 10px;
+    font-size: 13px;
+    color: #939393;
+}
+
+.box ul li {
+    margin-bottom: 18px;
+}
+
+@media screen and (max-width:975px) {
+    .box {
+        text-align: center;
+        background-color: white;
+        margin-right: 0;
+    }
+}
+
+.left-box {
+    width: 100%;
+    background-color: rgba(242, 240, 240, 0.58);
+    height: auto;
+    margin: 45px 10px;
+    padding: 27px;
+    box-shadow: 0px 0px 8px 2px #a2a2a2;
+    border-radius: 5px;
+}
+
+.left-box .tabs {
+    overflow: hidden;
+}
+
+.left-box .tab {
+    border-radius: 5px;
+    background-color: white;
+    /* border: 1px solid black; */
+    color: white;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.left-box .tab .check-lab {
+    background-color: #009fff;
+    color: white;
+    width: 100%;
+    display: inline-block;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.left-box .tab .check-lab::after {
+    content: '\276f';
+    float: left;
+    transition: all 0.1s linear;
+    padding: 1px;
+}
+
+.left-box .tab .check-title {
+    color: black;
+    font-size: 13px;
+    height: 0;
+    visibility: hidden;
+    transition: all 0.1s ease;
+}
+.left-box .tab input:checked~.check-title {
+    height:50px;
+    visibility:visible;
+    padding: 15px;
+    background-color: #e1e1e1;
+    color: #484848;
+}
+.left-box .tab input{
+    display: none;
+}
+.left-box .tab input:checked+.check-lab::after {
+    transform: rotate(-90deg);
+}

@@ -1,0 +1,315 @@
+@import 'reset.css';
+
+@import 'navbar.css';
+
+@import 'post.css';
+@import 'post2.css';
+@import 'about.css';
+@import 'teacher.css';
+@import 'statistics.css';
+@import 'faq.css';
+@font-face {
+    font-family: vazir;
+    src: url('../fonts/vazir.eot');
+    src: url('../fonts/vazir.eot?#iefix') format('embedded-opentype'), url('../fonts/vazir.woff2') format('woff2'), url('../fonts/vazir.woff') format('woff'), url('../fonts/vazir.ttf') format('truetype');
+    font-weight: normal;
+    font-display: swap;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    /* font-weight: bold; */
+    font-family: vazir;
+    direction: rtl;
+}
+
+.p0 {
+    padding: 0 !important;
+}
+
+.p10 {
+    padding: 0 10px;
+}
+.p20{
+    padding: 20px;
+}
+.mb20 {
+    margin-bottom: 20px;
+}
+
+.mt150 {
+    margin-top: 150px;
+}
+
+.img-res {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.row::after {
+    content: '';
+    clear: both;
+    display: table;
+}
+
+.clearfix {
+    clear: both;
+}
+
+[class^="col-"] {
+    float: right;
+    padding: 0 15px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.sec-title3 span {
+    position: relative;
+}
+
+.sec-title3 span::after {
+    content: "";
+    width: 40px;
+    height: 3px;
+    background-color: aqua;
+    position: absolute;
+    top: 14px;
+    right: 46px;
+}
+
+.sec-title3 span::before {
+    content: "";
+    width: 40px;
+    height: 3px;
+    background-color: aqua;
+    position: absolute;
+    top: 14px;
+    right: -45px;
+}
+
+.sec-title3 h1 {
+    margin: 50px 0;
+    text-align: center;
+}
+
+.sec-title2 span {
+    position: relative;
+}
+
+.sec-title2 span::after {
+    content: "";
+    width: 40px;
+    height: 3px;
+    background-color: aqua;
+    position: absolute;
+    top: 14px;
+    right: 80px;
+}
+
+.sec-title2 span::before {
+    content: "";
+    width: 40px;
+    height: 3px;
+    background-color: aqua;
+    position: absolute;
+    top: 14px;
+    right: -45px;
+}
+
+.sec-title2 h1 {
+    margin: 50px 0;
+    text-align: center;
+}
+
+.sec-title4 span {
+    position: relative;
+}
+
+.sec-title4 span::after {
+    content: "";
+    width: 40px;
+    height: 3px;
+    background-color: aqua;
+    position: absolute;
+    top: 14px;
+    right: 70px;
+}
+
+.sec-title4 span::before {
+    content: "";
+    width: 40px;
+    height: 3px;
+    background-color: aqua;
+    position: absolute;
+    top: 14px;
+    right: -45px;
+}
+
+.sec-title4 h1 {
+    margin: 50px 0;
+    text-align: center;
+}
+.sec-title5 span {
+    position: relative;
+}
+
+.sec-title5 span::after {
+    content: "";
+    width: 40px;
+    height: 3px;
+    background-color: aqua;
+    position: absolute;
+    top: 14px;
+    right: 103px;
+}
+
+.sec-title5 span::before {
+    content: "";
+    width: 40px;
+    height: 3px;
+    background-color: aqua;
+    position: absolute;
+    top: 14px;
+    right: -45px;
+}
+
+.sec-title5 h1 {
+    margin: 50px 0;
+    text-align: center;
+}
+.go-t{
+    position: sticky;
+    bottom: 7px;
+}
+.go-top{
+    width: 40px;
+    height: 40px;
+    background-color: aqua;
+    position:relative;
+    border-radius: 10px 10px 10px;
+}
+.go-top svg{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+/* con */
+.nav-top {
+    width: 100%;
+    background-color: #263238;
+    color: white;
+    height: 30px;
+}
+.concat{
+    padding: 0 10px;
+
+}
+.concat svg{
+    color: #D84315;
+    vertical-align: -9px;
+}
+.concat span{
+    font-size: 15px;
+    vertical-align: -6px;
+}
+.n{
+    display: inline-block;
+    padding-right: 10px;
+}
+.concat-icon{
+    direction: ltr;
+}
+.concat-icon svg{
+    color: #ffffff;
+    font-size: 20px;
+    vertical-align: -10px;
+    margin-left: 6px;
+    transition: all 0.5s;
+
+}
+.concat-icon svg:hover{
+    cursor: pointer;
+}
+.concat-icon .i1:hover{
+   color: #0088cc;
+}
+.concat-icon .i2:hover{
+    color: #DD2A7B;
+}
+.concat-icon .i3:hover{
+    color: #25D366;
+}
+.concat-icon .i4:hover{
+    color: #1DA1F2;
+}
+.concat-icon .i5:hover{
+    color: #ff8c00;
+}
+/* he */
+.header-img {
+    position: relative;
+}
+
+.img1 {
+    min-height: 90vh;
+}
+
+.overly {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.404);
+    width: 100%;
+    min-height: 100%;
+}
+
+.header-title {
+    color: white;
+    margin: 200px;
+    line-height: 40px;
+    max-width: 363px;
+}
+
+.header-title h1 {
+    font-size: 30px;
+}
+
+.header-title a {
+    background-color: cyan;
+    color: white;
+    padding: 2px 10px;
+    border-radius: 5px;
+    float: left;
+}
+
+@media screen and (max-width:1200px) {
+    .header-title {
+        width: 100%;
+        margin: 0;
+        background-color: rgba(255, 255, 255, 0.585);
+        color: black;
+        border-radius: 5px;
+        padding: 20px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .figure {
+        position: relative;
+    }
+    .overly,.img1{
+        min-height: 100%;
+    }
+}

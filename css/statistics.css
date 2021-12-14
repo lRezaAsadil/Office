@@ -1,0 +1,19 @@
+.stat{
+    margin-top: 100px;
+    width: 100%;
+    background-color: #009fff;
+    height: auto;
+}
+.title{
+    text-align: center;
+margin: 60px 0;
+}
+.title svg{
+    font-size: 45px;
+    color: white;
+    margin-bottom: 20px;
+}
+.title .cout{
+    color: white;
+    margin-bottom: 20px;
+}
